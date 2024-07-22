@@ -1,0 +1,30 @@
+body{
+    /* background-image: url(download.jpeg);
+    background-repeat: repeat-x;
+    background-attachment: fixed;
+    background-position: top;
+    background-size: 500px 500px; */
+
+
+}
+h1{
+    /* border-style: solid dotted; */
+    /* border-width: 2px; */
+    border: 2px blue;
+    border-style: dashed solid dotted;
+    border-radius: 10px;
+    text-align: center;
+    height: 100px;
+    width: 400px;
+    padding-top: 50px;
+    margin: 30px 10px 10px 40px;
+    text-decoration: underline overline;
+    
+
+}
+h1 span{
+    vertical-align:super;
+}
+a{
+    text-decoration: none;
+}
