@@ -1,4 +1,51 @@
 .main{
-   background-color: rgb(223, 223, 223);
-   width: 1000px;
+   background-color: white;
+   width: 850px;
+   height: 600px;
+   position: relative;
+}
+.b1{
+   background-color: whitesmoke;
+   width: 200px;
+   height: 490px;
+   left: 10px;
+   position: absolute;
+}
+.b2{
+   background-color: whitesmoke;
+   width: 200px;
+   height: 490px;
+   left: 220px;
+   position: absolute;
+}
+.b3{
+   background-color: whitesmoke;
+   width: 200px;
+   height: 490px;
+   left: 430px;
+   position: absolute;
+}
+.b4{
+   background-color: whitesmoke;
+   width: 200px;
+   height: 490px;
+   right: 10px;
+   position: absolute;
+}
+.pic{
+   width: 200px;
+   height: 150px;
+}
+.p{
+   padding-bottom: 200px;
+   padding-left: 10px;
+   padding-right: 10px;
+}
+.head{
+   padding-left: 10px;
+   padding-right: 10px;
+
+}
+.n{
+   padding-left: 10px;
 }
