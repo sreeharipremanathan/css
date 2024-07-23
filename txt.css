@@ -1,0 +1,70 @@
+h1{
+    text-transform: uppercase;
+}
+h2{
+
+}
+.in{
+    text-indent: 50px;
+}
+.ls{
+    letter-spacing: 5px;
+}
+.small{
+    line-height: .8;
+}
+.big{
+    line-height: 1.8;
+}
+.ws{
+    word-spacing: 8px;
+}
+h2{
+    color: white;
+    text-shadow: 2px 2px 1px rgb(161, 67, 67) ,0 0 10px rgb(0, 4, 236) ;
+    font-size: 50px;
+}
+.p1{
+    font-family: 'Times New Roman', Times, serif;
+}
+.p2{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.p3{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+#s1{
+    font-style: italic;
+}
+#s2{
+    font-style: normal;
+}
+#s3{
+    font-style: oblique;
+}
+h3{
+    font-size: 40px;
+}
+h4{
+    font-size: 50px;
+}
+#h{
+    font-size: 5vw;
+}
+table{
+    width: 100%;
+    height: 200px;
+    border-collapse: collapse;
+   
+}
+table,td,th{
+    border: 2px solid;
+}
+td{
+    text-align: center;
+    vertical-align: bottom;
+    padding: 10px;
+}
+th{
+    height: 80px;
+}
