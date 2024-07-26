@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        input[type=text]{
+            width: 50%;
+            border: 2px solid red;
+            border-radius: 10px;
+            outline: none;
+            height: 30px;
+        }
+        input[type=number]{
+            width: 50%;
+        }
+        input[type=number]:hover{
+            width: 50%;
+            border: 2px solid blue;
+            border-radius: 15px;
+        }
+        #input:focus{
+            border: none;
+            border-bottom: 2px solid red;
+        }
+        #clr{
+            background-color: bisque;
+            color: brown;
+            border: none;
+        }
+        #search{
+            background-image: url(icon.webp);
+            background-position: 10px 10px;
+            background-repeat: no-repeat;
+        }
+    </style>
+</head>
+<body>
+    <h2>borderd inputs</h2>
+    <form>
+        <label for="">name</label>
+        <input type="text"><br><br>
+        <label for="">phone</label>
+        <input type="number">
+    </form>
+    <hr>
+    <h2>colored inputs</h2>
+    <form>
+        <label for="">name</label>
+        <input type="text" id="input"><br><br>
+        <label for="">l name</label>
+        <input type="text"  id="clr"><br><br>
+        <label for="">search</label>
+        <input type="text" name="search" placeholder="search" id="search">
+    </form>
+</body>
+</html>
