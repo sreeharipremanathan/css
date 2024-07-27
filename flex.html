@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .main div{
+            width: 100px;
+            margin: 30px;
+            padding: 30px;
+            text-align: center;
+            background-color: bisque;
+        }
+        .main{
+            display: flex;
+            background-color: brown;
+        }
+        .wrap div{
+            width: 100px;
+            margin: 30px;
+            padding: 30px;
+            background-color: bisque;
+            text-align: center;
+            
+           
+        }
+        .wrap{
+            display: flex;
+            flex-wrap: wrap;
+            background-color: brown;
+            /* flex-direction: row-reverse; */
+        }
+        .column div{
+            width: 100px;
+            margin: 20px;
+            padding: 20px;
+            background-color: bisque;
+            text-align: center;
+        }
+        .column{
+            display: flex;
+            flex-direction: column;
+            /* flex-direction: column-reverse; */
+            background-color: brown;
+            flex-wrap: wrap;
+
+        }
+        .flexflow div{
+            width: 100px;
+            margin: 20px;
+            padding: 20px;
+            background-color: bisque;
+            text-align: center;
+        }
+        .flexflow{
+            display: flex;
+            background-color: rgb(185, 51, 51);
+            flex-flow: raw wrap;
+        }
+        .justify div{
+            width: 100px;
+            margin: 20px;
+            padding: 20px;
+            text-align: center;
+            background-color: bisque;
+
+        }
+        .justify{
+            display: flex;
+            justify-content: space-between;
+            /* justify-content: space-around; */
+            background-color: brown;
+            flex-wrap: wrap;
+        }
+        .align div{
+            width: 100px;
+            margin: 20px;
+            padding: 20px;
+            text-align: center;
+            background-color: bisque;
+        }
+        .align{
+            display: flex;
+            height: 400px;
+            flex-wrap: wrap;
+            align-content: space-between;
+            background-color: brown;
+        }
+    </style>
+</head>
+<body>
+    <h2>flex</h2>
+    <div class="main">
+        <div>a</div>
+        <div>b</div>
+        <div>c</div>
+        <div>d</div>
+        <div>e</div>
+
+    </div>
+    <hr>
+    <h2>flex-wrap</h2>
+    <div class="wrap">
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+        <div>4</div>
+        <div>5</div>
+        <div>6</div>
+        <div>7</div>
+        <div>8</div>
+        <div>9</div>
+        <div>10</div>
+        <div>11</div>
+        <div>12</div>
+        <div>13</div>
+        <div>14</div>
+        <div>15</div>
+    </div>
+    <hr>
+    <h2>flex-column</h2>
+    <div class="column">
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+        <div>4</div>
+        <div>5</div>
+        <div>6</div>
+        <div>7</div>
+        <div>8</div>
+        <div>9</div>
+        <div>10</div>
+        <div>11</div>
+        <div>12</div>
+        <div>13</div>
+        <div>14</div>
+        <div>15</div>
+    </div>
+    <h2>flex with shorthand</h2>
+    <div class="flexflow">
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+        <div>4</div>
+        <div>5</div>
+        <div>6</div>
+        <div>7</div>
+        <div>8</div>
+        <div>9</div>
+    </div>
+    <hr>
+    <h2>justify-content</h2>
+    <div class="justify">
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+    </div>
+    <hr>
+    <h2>align content</h2>
+    <div class="align">
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+        <div>4</div>
+        <div>5</div>
+        <div>6</div>
+        <div>7</div>
+        <div>8</div>
+        <div>9</div>  
+    </div>
+    <hr>
+    <h2>center</h2>
+    <div class="center">
+        <div>yo!</div>
+    </div>
+</body>
+</html>

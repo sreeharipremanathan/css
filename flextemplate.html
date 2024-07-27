@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .header{
+            background-color: rgb(49, 185, 140);
+            padding: 50px;
+            text-align: center;
+            color: white;
+        }
+        .navbar{
+            display: flex;
+            background-color: rgb(48, 46, 46);
+            /* padding: 15px; */
+            justify-content:flex-end ;
+        }
+        
+        .navbar a{
+            text-decoration: none;
+            color: beige;
+            padding: 14px 20px;
+            
+        }
+        .navbar a:hover{
+            background-color: antiquewhite;
+            color: black;
+        }
+        .row{
+            display: flex;
+            /* flex-wrap: wrap; */
+        }
+        .side{
+            flex: 30%;
+            background-color: #f1f1f1;
+            padding: 20px;
+        }
+        .main{
+            flex: 70%;
+            background-color: #f1f1f1;
+            padding: 20px;
+        }
+        .fakeimg{
+            background-color: hsl(0, 0%, 67%);
+            width: 100%;
+            padding: 20px;
+        }
+    </style>
+</head>
+<body>
+
+    <div style="background-color: yellow;padding: 5px;">
+        <h4 style="text-align: center;">top</h4>
+    </div>
+    <div class="header">
+        <h2 style="font-size: 30px;">my website</h2>
+        <p>with a layout</p>
+    </div>
+    <div class="navbar">
+        <a href="">click</a>
+        <a href="">click</a>
+        <a href="">click</a>
+        <a href="">click</a>
+    </div>
+    <div class="row">
+        <div class="side">
+            <h2>About Me</h2>
+            <h5>A photo of me</h5>
+            <div class="fakeimg" style="height: 200px;">image</div>
+            <p>Some text about me in culpa qui officia deserunt mollit anim..</p>
+            <h3>more text</h3>
+            <p>Lorem ipsum dolor sit ame.</p>
+            <div class="fakeimg" style="height:60px">image</div><br>
+            <div class="fakeimg" style="height:60px">image</div><br>
+            <div class="fakeimg" style="height:60px">image</div>
+        </div>
+        <div class="main">
+            <h2>title heading</h2>
+            <h5>Title description, Dec 7, 2017</h5>
+            <div class="fakeimg" style="height: 200px;">image</div>
+        </div>
+    </div>
+</body>
+</html>
