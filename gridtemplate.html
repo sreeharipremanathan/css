@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .head{
+            grid-area: head;
+            background-color: rgb(32, 204, 147);
+            padding-top: 30px;
+            text-align: center;
+            font-size: 25px;
+            font-family:sans-serif;
+        }
+        .nav{
+            grid-area: nav;
+            background-color: rgb(255, 221, 179);
+            display: flex;
+        }
+        .nav div{
+            text-align: center;
+            padding: 10px 10px;
+            width: 100%;
+            margin-top: 20px;
+            color: rgb(18, 83, 224);
+            justify-content: center;
+        }
+        .nav a{
+            color: blueviolet;
+        }
+        .menu{
+            grid-area: menu;
+            background-color: rgb(219, 230, 230);
+        }
+        .menu p,h2{
+            margin-left: 20px;
+        }
+        .img{
+            grid-area: img;
+            background-color: rgb(173, 173, 173);
+        }
+        .mesg{
+            grid-area: mesg;
+            background-color: rgb(95, 197, 163);
+            text-align: center;
+            padding-top: 25px;
+        }
+        .btn{
+            grid-area: btn;
+            background-color: rgb(13, 168, 59);
+            display: flex;
+        }
+        .btn1{
+            background-color: rgb(51, 245, 138);
+            width: 50%;
+            text-align: center;
+            padding-top: 35px;
+        }
+        .btn2{
+            background-color: aquamarine;
+            width: 50%;
+            text-align: center;
+            padding-top: 35px;
+        }
+        .btn a{
+            color: rgb(8, 98, 216);
+        }
+        a{
+            text-decoration: none;
+        }
+        .main{
+            display: grid;
+            grid-template-areas: 
+            'head head head head nav nav nav'
+            'menu menu menu menu img img img'
+            'mesg mesg mesg mesg img img img'
+            'btn btn btn btn img img img';
+            grid-template-rows: 80px 310px 100px 90px;
+        }
+    </style>
+</head>
+<body>
+    <div class="main">
+        <div class="head">Web Diary</div>
+        <div class="nav">
+           <div class="home"><a href="">Home</a></div>
+           <div class="about"><a href="">About</a></div>
+           <div class="contact"><a href="">contact</a></div>
+        </div>
+        <div class="menu">
+            <h2>css grid example</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error quae ipsa veritatis provident alias culpa cupiditate, consequuntur soluta id recusandae modi ex nemo</p>
+        </div>
+        <div class="img"><img src="tree.webp" style="height: 100%; width: 100%;"></div>
+        <div class="mesg"><p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odio cumque</p></div>
+        <div class="btn">
+            <div class="btn1"><a href="">read more</a></div>
+            <div class="btn2"><a href="">view all</a></div>
+        </div>
+    </div>
+</body>
+</html>
