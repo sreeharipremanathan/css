@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: rgb(216, 243, 255);
+            color: brown;
+        }
+        * {
+            box-sizing: border-box;
+        }
+
+        .row{
+            display: flex;
+            flex-wrap: wrap;
+        }
+        .column{
+            flex: 25%;
+            padding: 20px;
+        }
+        
+        @media screen and (max-width: 992px) {
+            body{
+                background-color: white;
+                color: brown;
+            }
+
+        }
+        @media screen and (max-width: 600px) {
+            body{
+                background-color: rgb(139, 241, 207);
+                color: rgb(40, 95, 77);
+            }
+        }
+
+
+        
+
+        @media screen and (max-width:992px) {
+            .column{
+                flex: 50%;
+            } 
+        }
+        @media screen and (max-width:600px) {
+            .row{
+                flex-direction: column;
+            }
+        }
+    </style>
+</head>
+<body>
+   <h1>Resize the browser window to see the effect!</h1> 
+   
+   <hr>
+   <div class="row">
+    <div class="column" style="background-color: rgb(255, 172, 70);">
+        <h3>column 1</h3>
+        <p>some texts</p>
+    </div>
+    <div class="column" style="background-color: rgb(247, 187, 113);">
+        <h3>column 2</h3>
+        <p>some texts</p>
+    </div>
+    <div class="column" style="background-color: rgb(253, 222, 184);">
+        <h3>column 3</h3>
+        <p>some texts</p>
+    </div>
+    <div class="column" style="background-color: rgb(252, 230, 204);">
+        <h3>column 4</h3>
+        <p>some texts</p>
+    </div>
+</div>
+</html>
