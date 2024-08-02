@@ -78,6 +78,24 @@
             'btn btn btn btn img img img';
             grid-template-rows: 80px 310px 100px 90px;
         }
+        @media screen and (max-width:570px) {
+            .main{
+                grid-template-areas: 
+                'head head head'
+                'nav nav nav'
+                'menu menu menu'
+                'img img img'
+                'mesg mesg mesg'
+                'btn btn btn';
+                grid-template-rows: 65px 60px 210px 300px 100px 60px ;
+            }
+            .nav div{
+                margin-top: 12px;
+            }
+            .btn1,.btn2{
+                padding-top: 23px;
+            }
+        }
     </style>
 </head>
 <body>

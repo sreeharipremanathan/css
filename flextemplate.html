@@ -44,13 +44,25 @@
         }
         .fakeimg{
             background-color: hsl(0, 0%, 67%);
-            width: 100%;
+            /* width: 100%; */
             padding: 20px;
         }
         .footer{
             text-align: center;
             padding: 20px;
             background-color: #ddd;
+        }
+        @media screen and (max-width:700px) {
+            .row{
+                flex-direction: column;
+            }
+            .header{
+                height: 100px;
+            }
+            .navbar{
+                justify-content: center;
+            }
+
         }
     </style>
 </head>
@@ -88,7 +100,7 @@
             <p>Some text..</p>
             <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
             <br>
-            <h2>title heading</h2>
+            <h2>Title heading</h2>
             <h5>Title description, Dec 7, 2017</h5>
             <div class="fakeimg" style="height: 200px;">image</div>
             <p>Some text..</p>
